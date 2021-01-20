@@ -8,5 +8,5 @@ setup(
     author='Pallets',
     author_email='contact@palletsprojects.com',
     description='The basic blog app built in the Flask tutorial.',
-    packages=['flask', 'gunicorn']
+    install_requires=['flask', 'gunicorn']
 )
